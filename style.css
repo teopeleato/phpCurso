@@ -1,0 +1,21 @@
+header{
+    color: beige;
+    margin-bottom: 2%;
+}
+
+body{
+    background-color: darksalmon;   
+}
+
+#form_pedido{
+    background-color: beige;   
+    width: 30%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: beige;
+    font-weight: bold;
+    text-decoration: underline;
+}   

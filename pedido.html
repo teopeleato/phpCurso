@@ -1,0 +1,44 @@
+<!-- 02. Curso PHP-MySQL: Acceder a contenidos dinámicos -->
+
+<DOCTYPE! html>
+    <html lang="es">
+        <head>
+            <title>pedido</title>
+            <meta charset="utf-8">
+            <link href="style.css" rel="stylesheet">
+        </head>
+        <body>
+            <header>
+                <h1>Librería online</h1>
+                <h2>Formulario del pedido</h2>
+            </header>
+            <section>
+                <form id="form_orden" action="resumenPedido.php" method="post">
+                    <legend>Introduzca las cantidades:</legend>
+                    <br>
+                    <label for="cant_1">El señor de los anillos 1:  </label>
+                    <input type="number" id="cant_1" name="cant_1" min="0" max="200" value="0">
+                    <br>
+                    <label for="cant_2">El señor de los anillos 2:  </label>
+                    <input type="number" id="cant_2" name="cant_2" min="0" max="200" value="0">
+                    <br>
+                    <label for="cant_3">El señor de los anillos 3:  </label>
+                    <input type="number" id="cant_3" name="cant_3" min="0" max="200" value="0">
+                    <br><br>
+                    <label for="direccion">Dirección de envío:  </label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Escriba su dirección" size="40">
+                    <br><br>
+                    <label for="encuesta">¿Cómo conoció nuestra librería?</label>
+                    <select id="encuesta" name="encuesta">
+                        <option value="">Elija una opción</option>
+                        <option value="a">Por internet</option>
+                        <option value="b">Por amigos</option>
+                        <option value="c">Por la TV</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Enviar pedido">
+                </form>
+            </section>
+            <footer></footer>
+        </body>
+    </html>
